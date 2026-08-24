@@ -1,0 +1,95 @@
+{
+  "source": "simulated_NSB_style_reference_data",
+  "dzongkhags": [
+    {
+      "dzongkhag": "Thimphu",
+      "region": "Western",
+      "altitude_m": 2334,
+      "avg_annual_rainfall_mm": 650
+    },
+    {
+      "dzongkhag": "Paro",
+      "region": "Western",
+      "altitude_m": 2200,
+      "avg_annual_rainfall_mm": 780
+    },
+    {
+      "dzongkhag": "Punakha",
+      "region": "Western",
+      "altitude_m": 1200,
+      "avg_annual_rainfall_mm": 900
+    },
+    {
+      "dzongkhag": "Wangdue Phodrang",
+      "region": "Western",
+      "altitude_m": 1350,
+      "avg_annual_rainfall_mm": 870
+    },
+    {
+      "dzongkhag": "Chukha",
+      "region": "Western",
+      "altitude_m": 1500,
+      "avg_annual_rainfall_mm": 1600
+    },
+    {
+      "dzongkhag": "Haa",
+      "region": "Western",
+      "altitude_m": 2670,
+      "avg_annual_rainfall_mm": 900
+    },
+    {
+      "dzongkhag": "Samtse",
+      "region": "Southern",
+      "altitude_m": 300,
+      "avg_annual_rainfall_mm": 3500
+    },
+    {
+      "dzongkhag": "Sarpang",
+      "region": "Southern",
+      "altitude_m": 250,
+      "avg_annual_rainfall_mm": 3200
+    },
+    {
+      "dzongkhag": "Tsirang",
+      "region": "Southern",
+      "altitude_m": 900,
+      "avg_annual_rainfall_mm": 2200
+    },
+    {
+      "dzongkhag": "Trongsa",
+      "region": "Central",
+      "altitude_m": 2200,
+      "avg_annual_rainfall_mm": 850
+    },
+    {
+      "dzongkhag": "Bumthang",
+      "region": "Central",
+      "altitude_m": 2800,
+      "avg_annual_rainfall_mm": 650
+    },
+    {
+      "dzongkhag": "Zhemgang",
+      "region": "Central",
+      "altitude_m": 1900,
+      "avg_annual_rainfall_mm": 2700
+    },
+    {
+      "dzongkhag": "Mongar",
+      "region": "Eastern",
+      "altitude_m": 1600,
+      "avg_annual_rainfall_mm": 1100
+    },
+    {
+      "dzongkhag": "Trashigang",
+      "region": "Eastern",
+      "altitude_m": 1100,
+      "avg_annual_rainfall_mm": 1400
+    },
+    {
+      "dzongkhag": "Lhuentse",
+      "region": "Eastern",
+      "altitude_m": 1700,
+      "avg_annual_rainfall_mm": 1300
+    }
+  ]
+}

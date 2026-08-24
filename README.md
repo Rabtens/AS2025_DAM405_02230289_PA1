@@ -1,4 +1,4 @@
-# Bhutan Vegetable Market Prices — Reproducible Data Pipeline
+# Bhutan Vegetable Market Prices - Reproducible Data Pipeline
 
 DAM405 · Machine Learning Operations · Programming Assignment 1
 
@@ -150,4 +150,4 @@ category of invalid batch is correctly rejected.
 - No orchestration/scheduling layer (Airflow/Prefect) — the pipeline runs
   once per invocation; a production deployment would schedule it daily.
 - No data versioning (DVC/lakeFS) for the raw/curated datasets themselves.
-# AS2025_DAM405_02230289_PA1
+

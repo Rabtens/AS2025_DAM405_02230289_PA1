@@ -1,0 +1,4 @@
+pandas>=2.2
+pyarrow>=15.0        # parquet read/write support
+pytest>=8.0
+flake8>=7.0

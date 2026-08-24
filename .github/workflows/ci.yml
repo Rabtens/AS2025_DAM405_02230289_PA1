@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint with flake8
+        run: |
+          # fail the build on real errors (syntax errors, undefined names)
+          flake8 src tests --max-line-length=110 --select=E9,F63,F7,F82
+          # report style issues without failing the build
+          flake8 src tests --max-line-length=110 --exit-zero
+
+      - name: Run tests with pytest
+        run: |
+          pytest -v
+
+      - name: Run the pipeline end-to-end
+        run: |
+          python -m src.pipeline
